@@ -38,7 +38,7 @@ p {
 }
 
 .bia-navbar {
-  height: 80px;
+  height: 79px;
   margin: 0px;
   padding-top: 8px; 
   background: url('../img/bia-images/pink-line-shadowed.png') repeat-x scroll 0 0 transparent;
@@ -63,7 +63,7 @@ p {
 }
 
 .my-bia-link {
-  margin-left: 60px;
+  margin-left: 5px;
   margin-top: 5px;
 }
 
