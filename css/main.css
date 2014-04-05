@@ -1,0 +1,531 @@
+
+body {
+  background:url("../img/bia-images/Black-Swirl-2.png") top left #EEEEEE;
+  font-family: Helvetica; 
+  font-size: 12px; 
+  color: #63665F
+}
+
+body, section, nav, div, p, ul, li, input, img {
+    position: relative;
+}
+
+a {
+  color:#555555;
+}
+
+a:hover {
+  color:#555555;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#555555;
+}
+
+h2 a { 
+  /*background-color: #F5FF4C;*/ 
+  color: #09A1B9; 
+  text-decoration: none; 
+  padding: 5px;
+}
+
+p {
+  font-size:100%;
+  line-height: 18px;
+  margin-top: 12px;
+  color:  #666;
+}
+
+.bia-navbar {
+  height: 80px;
+  margin: 0px;
+  padding-top: 8px; 
+  background: url('../img/bia-images/pink-line-shadowed.png') repeat-x scroll 0 0 transparent;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+.bia-navbar .container-fluid {
+  padding-top: 5px;
+  padding-right: 60px;
+  height: 70px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding-left: 0px;
+}
+
+.my-bia-link {
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.bia-container {
+  paddding-left:20px;
+  padding-right:20px;
+  background:url("../img/bia-images/Bia-Bckgd-Gradient-top.png") repeat-x #FFF;
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+}
+
+#slider-id a {
+  color: #555555;
+}
+
+#slider-id a:visited {
+  color: #555555;
+}
+
+#bia-jumbotron {
+  margin-top:20px;
+  padding:10px;
+  padding-top:16px;
+  padding-left:10px;
+  padding-right:10px;
+  background:#FFF;
+  border:0px solid #EAEAEA;
+  margin-bottom:0px;
+  padding-bottom:20px;
+}
+
+#bia-jumbotron-left {
+  float:left;
+  width:482px;
+  border:1px solid #EAEAEA;
+  box-shadow:3px 3px 2px #888;
+  background:#000000;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#bia-jumbotron-right {
+  float:left;
+  padding-left:5px;
+  padding-top:0px;
+  width: 420px;
+  margin-left:10px;
+  margin-top:0px;
+}
+
+#bia-jumbotron-right  h1 {
+  color: #09A1B9;
+  font-family: 'Istok Web',Arial,Helvetica,sans-serif;
+  font-size: 42px;
+  line-height: 110%;
+  text-align: left;
+  text-shadow: none;
+  text-transform: uppercase;
+  padding-left: 0px;
+  margin-left: 0px;
+  letter-spacing: .015em;
+  margin-bottom: 10px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+ul#bia-home-jumbotron-features {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#555;
+  margin-left:0px;
+  list-style-type:none;
+  font-size:14px;
+  line-height:120%;
+  margin-top:0px;
+}
+
+.jumbotron p {
+    color: inherit;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 22px;
+}
+
+ul#bia-jumbotron-hero-features li {
+  padding-bottom:12px;
+  background:url(../img/bia-images/bia-check.png) no-repeat 0px 6px;
+  padding-left:25px;
+  color: #555;
+  line-height: 20px;
+  font-size: 90%;
+}
+
+/* Sliders and Carousel */
+
+#carousel-wrapper {
+    padding-bottom: 10px;
+    position: relative;
+  }
+  #carousel, #thumbs {
+    overflow: hidden;
+  }
+  #carousel-wrapper .caroufredsel_wrapper {
+    /*border-radius: 10px;*/
+    box-shadow: 0 0 5px #899;
+  }
+
+  #carousel span, #carousel img,
+  #thumbs a, #thumbs img  {
+    display: block;
+    float: left;
+  }
+  #carousel span, #carousel a,
+  #thumbs span, #thumbs a {
+    position: relative;
+  }
+  #carousel img,
+  #thumbs img {
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #carousel img.glare,
+  #thumbs img.glare {
+    width: 102%;
+    height: auto;
+  }
+
+  #carousel span {
+    width: 460px;
+    height: 460px;
+  }
+
+  #thumbs-wrapper {
+    padding: 20px 40px;
+    position: relative;
+  }
+  #thumbs a {
+    border: 1px solid #EAEAEA;
+    width: 150px;
+    height: 100px;
+    margin: 0 10px;
+    overflow: hidden;
+    -webkit-transition: border-color .5s;
+    -moz-transition: border-color .5s;
+    -ms-transition: border-color .5s;
+    transition: border-color .5s;
+  }
+  #thumbs a:hover, #thumbs a.selected {
+    box-shadow: 0 0 5px #899;
+  }
+  
+  #prev, #next {
+    background: transparent url('../../img/gui/carousel_nav.png') no-repeat 0 0;
+    display: block;
+    width: 19px;
+    height: 20px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+  }
+  #prev {
+    background-position: 0 0;
+    left: 10px;
+  }
+  #next {
+    background-position: -19px 0;
+    right: 10px;
+  }     
+  #prev:hover { 
+    background-position: 0 -20px;       
+  }
+  #next:hover {
+    background-position: -19px -20px;       
+  }
+  #prev.disabled, #next.disabled {
+    display: none !important;
+  }
+  
+  
+/* CODA Slider */
+
+.coda-slider-wrapper .coda-nav a {
+  background: none repeat scroll 0 0 #EAEAEA;
+  color: #FFFFFF;
+  margin-right: 1px;
+  padding: 3px 3px;
+  height: 18px;
+  width: 18px;
+}
+
+.slider-title {
+  display:none;
+}
+
+.slider-attribution {
+  padding-left:10px;
+  font-size:14px;
+}
+
+.slider-quotation {
+  margin-bottom:4px;
+}
+
+.slider-sub {
+  padding-top:20px;
+}
+
+.coda-slider-wrapper .coda-slider .panel {
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0px;
+}
+
+
+.btn {
+  background-color: #DD305B; 
+  background-image: url(images/fallback-gradient.png); 
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F15984), to(#DD305B));
+  background-image: -webkit-linear-gradient(top, #F15984, #DD305B); 
+  background-image:    -moz-linear-gradient(top, #F15984, #DD305B);
+  background-image:     -ms-linear-gradient(top, #F15984, #DD305B);
+  background-image:      -o-linear-gradient(top, #F15984, #DD305B);
+  background-image: -moz-linear-gradient(center top , #F15984, #DD305B);
+  background-repeat: repeat-x;
+  border-color: #DD305B;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-radius:4px;
+  font-size: 120%;
+  font-size: 14px;
+  padding: 10px 14px 8px;
+  font-weight: normal;
+  box-shadow: 1px 2px 3px #666;
+  border: 2px solid #FFFFFF;
+}
+
+
+.inset-gray {
+  padding-top:20px;
+  margin-right:-20px;
+  background:url('../img/bia-images/Bia-Bckgd-Gradient.png') repeat-x top left #FFF;
+  padding-bottom:20px;
+}
+
+div.call-to-action h2 {
+  line-height:120%;
+  text-shadow:none;
+  font-family: 'Istok Web', Arial, Helvetica, sans-serif;
+  padding:7px;
+  padding-left:0px;
+  font-size:14px;
+  text-align:left;
+  color:#09A1B9;
+  text-transform:uppercase;
+}
+
+.thumbnail .caption {
+  padding: 9px;
+  color: #555555;
+}
+
+.call-to-action {
+  min-height:250px;
+  position:relative;
+  background:#FFF;
+  padding-top:0px;
+}
+
+.action-message-hdr {
+  text-align:left;
+  font-family: 'Istok Web', Arial, Helvetica, sans-serif;
+  font-style:italic;
+  /* font-weight:bold; */
+  margin:0px;
+  margin-bottom:12px;
+  margin-top:6px;
+  padding:0px;
+  font-size:48px;
+  padding-left:35px;
+  color:#bbb;
+  padding-right:10px;
+  display:block;
+  font-size:30px;
+  text-shadow:none;
+}
+.envelope {
+  background:url('../img/bia-images/subscribe-icon.png') no-repeat 4px 10px;
+}
+
+label.kol-signup-label {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.kol-signup-email {
+  font-size:12px;
+  float:left;
+  margin-right:10px;
+  margin-top:7px;
+  margin-bottom: 5px;
+  width:160px;
+  border-radius: 2px;
+}
+
+.button {
+  background-color: #dddddd;
+  background-image: -webkit-linear-gradient(#dddddd, #cdcdcd);
+  background-image: -moz-linear-gradient(#dddddd, #cdcdcd);
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  border: 2px solid #eeeeee;
+  color: white;
+  font-size: 18px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.toppad16 {
+  padding-top:16px;
+}
+
+#bia-home-details {
+  font-size: 120%;
+}
+
+.nobordershadow {
+  border:0px;
+  box-shadow: none;;
+}
+
+.padleft30 {
+  padding-left:30px;
+}
+
+#bia-home-details h2 {
+  margin:0px;
+  padding:0px;
+  text-shadow:none;
+  color:#666;
+  margin-bottom: 6px;
+  margin-top:20px;
+  font-family: 'Istok Web',Arial,Helvetica,sans-serif;
+  font-style:italic;
+  text-transform:none;
+  font-size:150%;
+  text-align:left;
+}
+
+#bia-home-details p {
+  margin-bottom:10px;
+  margin-right:20px;
+}
+
+#bia-home-details ul {
+  list-style-type:disc;
+  margin-left:10px;
+  padding-left:10px;
+  line-height:20px;
+}
+
+#bia-home-details ul li {
+  line-height:30px;
+}
+
+#bia-home-press-hdr {
+  margin-top:20px;
+}
+
+#bia-home-press-hdr h1 {
+  text-align:left;
+  font-family: 'Istok Web', Arial, Helvetica, sans-serif;
+  line-height:130%;
+  margin:0px;
+  margin-bottom:0px;
+  padding:0px;
+  text-transform:none;
+  font-size:28px;
+  color:#777;
+  text-shadow:none;
+  font-style:italic;
+  font-weight:bold;
+  color:#CCC;
+  padding-left:18px;
+}
+
+.press-item {
+  padding:20px;
+  padding-top:18px;
+  border:0px;
+  box-shadow:none;
+  border-radius:0px;  
+  position: relative;
+  min-height:440px;
+}
+
+div.press-item h1 {
+  margin:15px;
+  margin-top:0px;
+  font-family: 'Istok Web', Arial, Helvetica, sans-serif;
+  font-size:18px;
+  text-align:left;
+  line-height:120%;
+  margin-left:0px;
+  padding-left:0px;
+  text-shadow:none;
+  margin-bottom:0px;
+}
+
+div.press-item a {
+  color:#09A1B9;
+}
+
+.read-more {
+  display:block;
+  position:absolute;
+  bottom:10px;
+  margin-top:10px;
+}
+
+p.read-more a {
+  color:#09A1B9;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #EAEAEA;
+}
+
+p.read-more a:hover {
+  color:#FFFFFF;
+  text-decoration: none;
+  background: #61C2D2;
+}
+
+.bia-btm-border {
+  margin-top:20px;
+  background:url('../img/bia-images/pink-line-shadowed.png') repeat-x;
+  height:8px;
+  margin-right:-20px;
+}
+
+#bia-footer {
+  margin-top:30px;
+  padding:20px;
+  color:#FFF;
+  background:url('../img/bia-images/bia-footer-background.png') bottom right #DD305B no-repeat;
+  min-height:60px;
+}
+
+#bia-footer-container {
+  margin: 0 auto;
+  width:960px;
+  font-family: 'Istok Web', Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+#bia-footer-container a {
+  color:#FFF;
+}
+
+

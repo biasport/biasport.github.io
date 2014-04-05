@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Bia GPS Sports Watch with SOS Safety Alert - Bia Sport</title>
+
+  <meta name="keywords" content="GPS Sports Watch, Bia Watch, Bia Sport, Bia, run watch, triathlon watch, watch gps, sport watch, sports watch, walk-run intervals, triathlon, safety alert, Garmin, Kickstarter" />
+  
+  <meta name="description" content="Bia Sport offers the Bia Multi-Sport GPS Sports Watch with SOS Safety Alert perfect for triathlon training, marathon training and fitness." />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/coda-slider.css">
+ 
+  <link rel="stylesheet" href="css/main.css" />
+  <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- START KISS METRICS -->
+  <script>
+    var _kmq = _kmq || [];
+    var _kmk = _kmk || '41fa8d62477d689922747b7820528ee66441ca6a';
+    function _kms(u){
+      setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+      }, 1);
+    }
+    _kms('http://i.kissmetrics.com/i.js');
+    _kms('http://doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+  </script>
+  <!-- END KISS METRICS -->
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24841912-1']);
+    _gaq.push(['_setDomainName', '.bia-sport.com']);
+    _gaq.push(['_setSiteSpeedSampleRate', 100]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <!-- End Google Analytics -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/jquery-ui-1.8.20.custom.min.js"></script>
+
+  <script src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
+  
+  <!-- Coda Slider, used for the Text Blurbs in the Home Hero Section -->
+  <script src="js/jquery.coda-slider-3.0.min.js"></script>
+
+  <script>
+    $(function() {
+      
+      $('#carousel span').append('<img src="img/gui/carousel_glare.png" class="glare" />');
+      $('#thumbs a').append('<img src="img/gui/carousel_glare_small.png" class="glare" />');
+
+      $('#carousel').carouFredSel({
+        responsive: true,
+        circular: false,
+        auto: false,
+        items: {
+          visible: 1,
+          width: 460,
+          height: 460
+        },
+        scroll: {
+          fx: 'directscroll'
+        }
+      });
+
+      $('#thumbs').carouFredSel({
+        responsive: true,
+        circular: false,
+        infinite: false,
+        auto: false,
+        prev: '#prev',
+        next: '#next',
+        items: {
+          visible: {
+            min: 2,
+            max: 6
+          },
+          width: 150,
+          height: 110
+        }
+      });
+
+      $('#thumbs a').click(function() {
+        $('#carousel').trigger('slideTo', '#' + this.href.split('#').pop() );
+        $('#thumbs a').removeClass('selected');
+        $(this).addClass('selected');
+        return false;
+      });
+
+    });
+  </script>
+
+  <script>
+      $(function(){
+  
+        /* Here is the slider using default settings */
+       
+        $('#slider-id').codaSlider({
+          autoSlide:false,
+          autoHeight:false,
+          dynamicTabs:true,
+          dynamicTabsPosition:"bottom",
+          dynamicTabsAlign:"right",
+          dynamicArrows:false
+        });
+        
+        /* If you want to adjust the settings, you set an option
+           as follows:
+  
+            $('#slider-id').codaSlider({
+              autoSlide:true,
+              autoHeight:false
+            });
+        
+        */
+      });
+  
+  </script>
+  <!-- /Coda Slider -->
+  
+</head>
+<body>
+<!-- Nav Bar -->
+  <nav class="navbar navbar-default navbar-static-top bia-navbar " role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/bia-images/Bia-Logo.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://twitter.com/biasport" alt="Bia on Twitter" title="Bia on Twitter">
+              <img src="img/bia-images/Bia-Twitter.png" alt="Bia on Twitter" title="Bia on Twitter">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/BiaSport" alt="Bia on Facebook" title="Bia on Facebook">
+              <img src="img/bia-images/Bia-Facebook.png" alt="Bia on Facebook" title="Bia on Facebook">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.pinterest.com/BiaSport/" alt="Bia on Pintrest" title="Bia on Pintrest">
+              <img src="img/bia-images/Bia-Pintrest.png" alt="Bia on Pintrest" title="Bia on Pintrest">
+            </a>
+          </li>
+
+          <li class="my-bia-link">
+            <a class="navbar-link" href="http://my.bia-sport.com" style="color:#dd305b;font-size:14px;">Bia Watch User's Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container bia-container">
+       
+    <div class="jumbotron" id="bia-jumbotron">
+      
+      <!-- START Video -->
+      <div id="bia-jumbotron-left">
+        <iframe src="http://player.vimeo.com/video/54627670?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="480" height="270" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>     
+      </div>
+      <!-- END Video -->
+
+      <!-- START Home Hero Slider -->
+      <div id="bia-jumbotron-right">
+        <a href="http://store.bia-sport.com/bia-sports-watch-gps-go-stick/" 
+          alt="Reserve your Bia Now!" title="Reserve your Bia Now!">
+          <div class="coda-slider" id="slider-id">
+            <!-- Slider 1 -->
+            <div>
+              <h2 class="title slider-title">&nbsp;</h2>
+              <h1 class="slider-quotation">"IT'S ABOUT <br/>DAMN TIME."</h1>
+              <i class="slider-attribution">
+                -- Susan Lacke, Columnist: Competitor & No Meat Athlete
+              </i>
+              <p class="slider-sub">
+                <span style="font-weight:700;">
+                  Multi-sport GPS watches just got chicked.
+                </span>
+                 Gorgeous design plus a must-have SOS safety alert make Bia the first GPS watch you'll love.
+              </p>
+            </div>
+            <!-- /Slider 1 -->
+            <!-- Slider 2 -->
+            <div>
+              <h2 class="title slider-title">&nbsp;</h2>
+              <h1 class="slider-quotation">"BIA COULD SAVE YOUR LIFE."</h1>
+              <i class="slider-attribution">
+                -- Huffington Post
+              </i>
+              <p class="slider-sub">
+                With Bia's unique SOS safety alert, help is never more than a 3-second button press away.
+              </p>
+            </div>
+            <!-- /Slider 2 -->
+            <!-- Slider 3 -->
+            <div>
+              <h2 class="title slider-title">&nbsp;</h2>
+              <h1>Push. Persevere. Transform.</h1>
+              <p>Don't let technology get in your way.<br>  All the stats from your run, bike and swim sent to your training log automatically. No syncing.</p>
+            </div>
+            <!-- /Slider 3 -->
+            <!-- Slider 4 -->
+            <div>
+              <h2 class="title slider-title">&nbsp;</h2>
+              <h1>Focus on Your Workout <br>Not Your Wrist</h1>
+              <p>Tired of searching for satellites?  Bia's quick-connect GPS means your workout starts NOW.</p>
+            </div>
+            <!-- /Slider 4 -->
+            <!-- Slider 5 -->
+            <div>
+              <h2 class="title slider-title">&nbsp;</h2>
+              <h1>Celebrate Your Journey</h1>
+              <p>Real-time race tracking <br>A scrapbook of your training progress.<br> And an amazing community <br>...online and at the start line.</p>
+            </div>
+            <!-- /Slider 5 -->
+          </div>
+        </a>
+      </div>
+      <!-- END Home Hero Slider -->
+      <a title="Reserve your Bia Watch today!" alt="Reserve your Bia Watch today!" style="font-size:150%;margin-top:0px;margin-left:30px;color:#FFFFFF;" class="btn btn-lg cta-btn" href="http://store.bia-sport.com/bia-sports-watch-gps-go-stick/">Reserve now!</a>
+      <div style="clear:both;"></div>
+    </div>
+  
+
+    <!-- START Call to Action Row -->
+    <div class="row inset-gray">
+      <!-- Column - Call to Action 1 -->
+      <div class="col-md-8">
+        <div class="thumbnail call-to-action">
+          <div class="caption" style="padding-bottom:6px;">
+            <div style="float:right;margin-left:26px;margin-top:10px;margin-right:2px;">
+            </div>
+            
+            <h2 style="margin-top:10px;margin-bottom:2px;font-size:22px;">
+              SPECIAL OFFER IF YOU RESERVE NOW!:
+            </h2>
+
+            <a href="http://store.bia-sport.com/bia-sports-watch-gps-go-stick/" class="btn btn-large cta-btn" 
+            style="font-size:150%;margin-top:0px;color:#FFFFFF;float:right;" alt="Reserve your Bia Watch today!" title="Reserve your Bia Watch today!">Reserve <br> now!</a> 
+
+            <ul style="width:75%;font-size:16px;list-style-type:disc;line-height:120%;margin-left:20px;margin-bottom:10px;">
+              <li>Limited early-bird price for our first 5,000 backers</li>
+              <li>A 30% discount on future products - forever</li>
+              <li>The excitement of helping build a female-founded company</li>
+            </ul>
+                
+            <div style="clear:both;"></div>
+          </div>
+          <div style="clear:both;"></div>
+          <div style="font-size: 12px; margin-top: 0px;">
+            <img src="img/bia-images/bia-progress-bar.png" style="padding-left:10px">
+            <span style="display:block;width:50%;float:right;text-align:right;">                
+            </span>
+            <span style="color:#DD305B;font-weight:bold;padding-left:12px;">2,260 of 5,000 RESERVED</span>
+          </div>
+        </div>     
+      </div>
+        
+      <!-- Column - Call to Action 2 -->
+      <div class="col-md-4">
+        <div class="thumbnail call-to-action">
+          <div class="caption">
+            <h1 class="action-message-hdr envelope" style="margin-bottom:0px;">Get Updates</h1>
+            <hr size="1" class="cta-hr" style="margin:0px;">
+            <h2>Not Ready to Reserve a Bia yet?</h2>
+              
+            <!-- BEGIN KICKOFFLABS EMBED WIDGET CODE -->       
+            <div id="kickofflabs_embed_form"
+            data-landing_page_id="2534" 
+            data-signup_text="Stay in the loop with monthly progress updates."
+            data-placeholder_text="Type your email here..."
+            data-button_text="Subscribe"
+            data-share_text = "Share our site with your friends!"
+            data-influenced_count_text="Influenced so far:"
+            data-button_css_class="button"
+            data-input_css_class="input"
+            data-promote_text="Check this out!"
+            data-error_message= "There was a problem with your email address!" 
+            ></div>
+            <script src="http://api.kickofflabs.com/embed/v1/embed.js"></script>
+            <!-- END KICKOFFLABS EMBED WIDGET BAR CODE -->
+              
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- END Call to Action Row -->
+
+    <!-- START Details Row -->     
+    <div class="row toppad16">
+      <div class="col-md-6">
+        <div id="bia-home-details" class="thumbnail nobordershadow">
+          <img src="img/bia-images/GPS-Watch.png" style="margin-bottom:20px;">
+          <div class="padleft30">
+            <h2>Prettier</h2>
+            <p>Get the iconic look that unites us online & at the start line.</p> 
+            <ul>
+              <li>Lightweight; ergonomically designed for smaller wrists</li>
+              <li>Killer colors and swappable watch bands</li>
+            </ul>
+            <h2>Tougher</h2>
+            <p>Redefine "shrink it and pink it" without the compromises.</p>
+            <ul>
+              <li>Full triathlon race mode</li>
+              <li>Unlimited walk-run intervals</li>
+              <li>Water resistant to 50M</li>
+            </ul>
+            <h2>Smarter</h2>
+            <p>You don't have time for technology that gets in the way.</p>
+            <ul>
+              <li>Data instantly to your training log without syncing</li>
+              <li>Quick connect GPS, so no more waiting for satelites</li>
+              <li>SOS Safety alert sends your location to loved ones and emergency services at the press of a button</li>
+            </ul>
+            <h1 class="action-message-hdr" style="margin-top:40px;background:none;padding: 0 0 0 0px;font-size:140%;">
+              Learn more about <a href="http://store.bia-sport.com/bia-sports-watch-gps-go-stick/" style="color:#09A1B9;">the product</a> or <a href="/about" style="color:#09A1B9;">the team</a>.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- / Left Column -->
+      <!-- Right Column -->
+        <div class="col-md-6">
+          <!-- START Big Image Carousel -->
+          <!-- For reference, this is from http://coolcarousels.frebsite.nl/c/28/ -->
+            <div id="carousel-wrapper" style="margin-top:20px;">
+            
+              <div id="carousel">
+                <span id="bia1"><img src="img/large/bia-3.png" /></span>
+                <span id="bia2"><img src="img/large/bia-5.png" /></span>
+                <span id="bia4"><img src="img/large/bia-4.png" /></span>
+                <span id="slim"><img src="img/large/bia-watch-slim.jpg" /></span>
+                <span id="bia3"><img src="img/large/bia-1.png" /></span>
+                <span id="bia5"><img src="img/large/bia-2.png" /></span>
+              </div>
+            </div>
+            <div id="thumbs-wrapper">
+              <div id="thumbs">
+                <a href="#bia1"><img src="img/small/bia-3.png" /></a>
+                <a href="#bia2"><img src="img/small/bia-5.png" /></a>
+                <a href="#bia4"><img src="img/small/bia-4.png" /></a>
+                                                      <a href="#slim" class="selected"><img src="img/small/bia-watch-slim.jpg" /></a>
+                <a href="#bia3"><img src="img/small/bia-1.png" /></a>
+                <a href="#bia5"><img src="img/small/bia-2.png" /></a>
+              </div>
+              <a id="prev" href="#"></a>
+              <a id="next" href="#"></a>
+            </div>
+          <!-- END Big Image Carousel -->
+          <br clear="both">
+          <a title="Reserve your Bia Watch today!" alt="Reserve your Bia Watch today!" style="font-size:150%;margin-top:0px;margin-left:160px;color:#FFFFFF;" class="btn btn-large cta-btn" href="http://store.bia-sport.com/bia-sports-watch-gps-go-stick/">Reserve now!</a>
+        </div>
+      </div> 
+      <!-- END Details Row -->
+      <hr/>
+
+      <div class="row" id="bia-home-press-hdr">
+        <div class="span12">
+          <h1>Read about Bia</h1>
+        </div>
+      </div>
+
+      <!-- START Press Row -->
+        
+      <div class="row" style="margin-bottom:0px;margin-top:0px;">
+        <!-- Press Item 1 -->
+        <div class="col-md-3">
+          <div class="thumbnail press-item">
+            <p class="publication-name">FORBES</p>
+              <h1><a href="http://www.forbes.com/sites/meghancasserly/2012/09/14/bia-watch-five-ways-to-raise-2000-a-minute-on-kickstarter/" alt="Five Ways To Raise $2,000 A Minute On Kickstarter" title="Five Ways To Raise $2,000 A Minute On Kickstarter">Five Ways To Raise $2,000 A Minute On Kickstarter</a></h1>
+              <hr>
+              <p>"40 days later 2,118 members of the Kickstarter community-90% of them female and 77% of them first-time investors-had raised $408,160, making Bia one of the top 10 Kickstarter campaigns in the design category and one of the top 40 projects overall. 'For a while there backers were donating at a rate of $2,000 per minute,' Kellond says."</p>
+              <p class="read-more"><a href="http://www.forbes.com/sites/meghancasserly/2012/09/14/bia-watch-five-ways-to-raise-2000-a-minute-on-kickstarter/" alt="Read More" title="Read More">Read More</a></p>
+            </div>
+        </div>
+        <!-- / Press Item 1 -->
+        <!-- Press Item 2 -->
+        <div class="col-md-3">
+          <div class="thumbnail press-item">
+            <p class="publication-name">HUFFINGTON POST</p>
+            <h1><a href="http://www.huffingtonpost.com/rachel-sklar/bia_b_1663650.html" alt="Why This Kickstarter for A High-Performance GPS Sports Watch Could Save Your Life" title="Why This Kickstarter for A High-Performance GPS Sports Watch Could Save Your Life">Why This Kickstarter for A High-Performance GPS Sports Watch Could Save Your Life</a></h1>
+            <hr>
+            <p>"This is an AMAZING product. One I am shocked does not already exist. Basically this is a high-tech GPS-enabled performance sports watch with all the bells and whistles... and a panic button."</p>
+            <p class="read-more"><a href="http://www.huffingtonpost.com/rachel-sklar/bia_b_1663650.html" alt="Read More" title="Read More">Read More</a></p>
+          </div>
+        </div>
+        <!-- / Press Item 2 -->
+        <!-- Press Item 3 -->
+        <div class="col-md-3">
+          <div class="thumbnail press-item">
+            <p class="publication-name">SWIM BIKE MOM</p>
+            <h1><a href="http://www.swimbikemom.com/2012/06/garmin-crushers.html" alt="Garmin Crushers!" title="Garmin Crushers!">Garmin Crushers!</a></h1>
+            <hr>
+            <p>"Look at this pretty thing that is going to crush our Garmins. And no, I don't mean these pretty ladies. I mean that peppy little blue thing sitting atop the Garmin and declaring, 'Your days are numbered, dude!'</p>
+            <p class="read-more"><a href="http://www.swimbikemom.com/2012/06/garmin-crushers.html" alt="Read More" title="Read More">Read More</a></p>
+          </div>
+        </div>
+        <!-- / Press Item 3 -->
+        <!-- Blog Item -->
+        <div class="col-md-3">
+          <div class="thumbnail press-item">
+            <p class="publication-name">THE BIA BLOG</p>
+            <h1><a href="http://www.bia-sport.com/blog/bia-gps-sports-watch-from-dream-to-reality/2012/07/" alt="Bia GPS Sports Watch - From Dream to Reality" title="Bia GPS Sports Watch - From Dream to Reality">Bia GPS Sports Watch - From Dream to Reality</a></h1>
+            <hr>
+            <p>On July 13, 2012 the vast number of supporters of Bia Sport made the reality of the Bia GPS Sports Watch come one step closer. &nbsp;We are thrilled to announce that we <a target="_blank" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.kickstarter.com/projects/956860865/bia-the-first-gps-sports-watch-for-womenby-women']);" href="http://www.kickstarter.com/projects/956860865/bia-the-first-gps-sports-watch-for-womenby-women">reached our funding goal</a> from pledges by 2,118 individuals&nbsp;totaling&nbsp;over $408,000.00.</p>
+            <p class="read-more"><a href="http://www.bia-sport.com/blog/bia-gps-sports-watch-from-dream-to-reality/2012/07/" alt="Read More" title="Read More">Read More</a></p>
+          </div>
+        </div>
+        <!-- / Blog Item -->
+      </div>
+        <!-- / Row -->
+        <!-- END Press Row -->
+
+      <hr style="margin-bottom:30px;margin-top:20px;" />
+
+      <div class="row bia-btm-border">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Footer -->
+  <footer id="bia-footer">
+    <div id="bia-footer-container">
+      <a href="http://www.bia-sport.com/about">About</a> | 
+      <a href="mailto:info@bia-sport.com">Contact</a> |
+      <!--
+      <a href="http://www.bia-sport.com/contact">Contact</a> | 
+      <a href="http://www.bia-sport.com/blog">Blog</a> | 
+      <a href="http://www.bia-sport.com/about/press">Press</a> | 
+      <a href="http://www.bia-sport.com/about/policy">Privacy Policy</a> | 
+      <a href="http://www.bia-sport.com/about/terms-of-service">Terms of Use</a> |
+      -->
+  
+      <a href="http://privacy-policy.truste.com/verified-policy/www.bia-sport.com" target="_blank">Privacy Policy by TRUSTe</a>
+      <p>
+        <a href="http://privacy-policy.truste.com/click-to-verify/www.bia-sport.com" title="Privacy Policy by TRUSTe" target="_blank"><img style="border: none" alt="Privacy Policy by TRUSTe" src="http://privacy-policy.truste.com/verified-seal/www.bia-sport.com/green/h.png"/></a>
+      </p>        
+      <p style="margin-top:10px;color:#FFFFFF;">&copy; 2014 Bia Sport, Inc.&trade;  All rights reserved. </p>
+    </div>
+
+    <script type="text/javascript">
+      setTimeout(function(){
+        var a=document.createElement("script");
+        var b=document.getElementsByTagName("script")[0];
+        a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/0286.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;
+        a.type="text/javascript";
+        b.parentNode.insertBefore(a,b)
+      }, 1);
+    </script>
+  </footer>
+      
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*{literal}<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('2352-372-10-5483');/*]]>{/literal}*/</script><noscript><a href="https://www.olark.com/site/2352-372-10-5483/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code --> 
+<script type="text/javascript">
+adroll_adv_id = "DEXTQ24UBRFRDEZVBJYSRB";
+adroll_pix_id = "W2YMEU7T55F7HPFASKXHRF";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+</body>
