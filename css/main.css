@@ -335,6 +335,15 @@ div.call-to-action h2 {
   padding-top:0px;
 }
 
+.call-to-action ul {
+  width:75%;
+  font-size:16px;
+  list-style-type:none;
+  line-height:200%;
+  margin-left:20px;
+  margin-bottom:10px;"
+}
+
 .action-message-hdr {
   text-align:left;
   font-family: 'Istok Web', Arial, Helvetica, sans-serif;
@@ -460,7 +469,7 @@ label.kol-signup-label {
   box-shadow:none;
   border-radius:0px;  
   position: relative;
-  min-height:440px;
+  min-height:420px;
 }
 
 div.press-item h1 {
@@ -478,6 +487,11 @@ div.press-item h1 {
 
 div.press-item a {
   color:#09A1B9;
+}
+
+div.press-item hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .read-more {
